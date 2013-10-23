@@ -256,7 +256,8 @@ Full-Width Styles
 
 .main-content{
     display:block;
-    min-width: 800px;
+    margin-top:40px;
+    min-width: 900px;
 }
 
 .header-container{
@@ -273,19 +274,13 @@ Full-Width Styles
     background-image:url(../img/ss_top.png);
     background-repeat: no-repeat;
     background-size:contain;
-    min-height: 400px;
+    min-height: 380px;
+    margin:20px 20px 20px 20px;
+    color:#f7f7f7;
 }
 
 .top-hero{
     margin-left:350px;
-}
-
-.box{
-    width:480px;
-}
-
-.FLR{
-    float:right;
 }
 
 .about-container{
