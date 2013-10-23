@@ -258,6 +258,8 @@ Full-Width Styles
     display:block;
     margin-top:40px;
     min-width: 900px;
+    font-size:18px;
+    font-weight:600;
 }
 
 .header-container{
@@ -283,18 +285,17 @@ Full-Width Styles
     margin-left:350px;
 }
 
-.about-container{
-    background-color:#f1b6da;
+.usage-container{
     background-color:#b8e186;
     padding:10px;
 }
 
-.usage-container{
+.mechanism-container{
     background-color:#f7f7f7;
     padding:10px;
 }
 
-.mechanism-container{
+.qa-container{
     background-color:#b8e186;
     padding:10px;
 }
@@ -304,6 +305,7 @@ Full-Width Styles
     padding:10px;
     text-align:center;
     color:#ffffff;
+    font-size:12px;
 }
 
 .outer {
@@ -410,6 +412,7 @@ Full-Width Styles
   background: #f0f2f4;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
+                    ミャクアリとは, LINEトークのやりとりを解析して相性度を測定するアプリです
 }
 
 #main_content {
