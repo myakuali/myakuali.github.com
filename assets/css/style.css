@@ -1,11 +1,4 @@
 /*******************************************************************************
-Slate Theme for GitHub Pages
-by Jason Costello, @jsncostello
-*******************************************************************************/
-
-@import url(pygment_trac.css);
-
-/*******************************************************************************
 MeyerWeb Reset
 *******************************************************************************/
 
@@ -52,24 +45,23 @@ Theme Styles
 *******************************************************************************/
 
 body {
-  box-sizing: border-box;
-  color:#373737;
-  background: #212121;
-  font-size: 16px;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "Avenir Next", "Hiragino Kaku Gothic ProN", Meiryo, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color:#373737;
+    background: #4dac26;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
-  color:#222222;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
 }
 
 h1 {
+  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
   font-size: 36px;
   font-weight: 700;
 }
@@ -77,7 +69,6 @@ h1 {
 h2 {
   padding-bottom: 10px;
   font-size: 32px;
-  background: url('../images/bg_hr.png') repeat-x bottom;
 }
 
 h3 {
@@ -97,7 +88,7 @@ h6 {
 }
 
 p {
-  margin: 10px 0 15px 0;
+  margin: 10px 0 10px 0;
 }
 
 footer p {
@@ -121,11 +112,10 @@ a {
   -ms-transition: text-shadow 0.5s ease;
 }
 
-a:hover, a:focus {text-decoration: underline;}
-
-footer a {
-  color: #F2F2F2;
-  text-decoration: underline;
+a:hover {
+  color: #0069ba;
+  text-shadow: #0069ba 0px 0px 1px;
+  text-decoration: none;
 }
 
 em {
@@ -136,41 +126,23 @@ strong {
   font-weight: bold;
 }
 
-img {
-  position: relative;
-  margin: 0 auto;
-  max-width: 739px;
-  padding: 5px;
-  margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
-
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
-}
-
 pre, code {
-  width: 100%;
+    width: 100%;
   color: #222;
   background-color: #fff;
 
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 14px;
+  font-size: 12px;
 
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-
-
-
 }
 
 pre {
   width: 100%;
-  padding: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  padding: 10px 5px 10px 0px;
+  box-shadow: 0 0 4px rgba(0,0,0,.1);
   overflow: auto;
 }
 
@@ -198,7 +170,7 @@ ul, ol, dl {
 
 ul li {
   list-style: inside;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 ol li {
@@ -250,9 +222,94 @@ form {
   padding: 20px;
 }
 
+@font-face {
+    font-family: 'LigatureSymbols';
+    src: url('/assets/font/LigatureSymbols.eot');
+    src: url('/assets/font/LigatureSymbols.eot?#iefix') format('embedded-opentype'),
+         url('/assets/font/LigatureSymbols.woff') format('woff'),
+         url('/assets/font/LigatureSymbols.ttf') format('truetype'),
+         url('/assets/font/LigatureSymbols.svg#LigatureSymbols') format('svg');
+    src: url('/assets/font/LigatureSymbols.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.lsf, .lsf-icon:before {
+    font-family: 'LigatureSymbols';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+       -moz-font-smoothing: antialiased;
+        -ms-font-smoothing: antialiased;
+         -o-font-smoothing: antialiased;
+            font-smoothing: antialiased;
+}
+
+.lsf-icon:before {
+    content: attr(title);
+    margin-right: .3em;
+    font-size: 130%;
+}
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
+
+.main-content{
+    display:block;
+    min-width: 800px;
+}
+
+.header-container{
+    background-color:#d01c8b;
+}
+
+.top-container{
+    background-color:#4dac26;
+    padding:10px;
+    max-width:100%;
+}
+
+.top-content{
+    background-image:url(../img/ss_top.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    min-height: 400px;
+}
+
+.top-hero{
+    margin-left:350px;
+}
+
+.box{
+    width:480px;
+}
+
+.FLR{
+    float:right;
+}
+
+.about-container{
+    background-color:#f1b6da;
+    background-color:#b8e186;
+    padding:10px;
+}
+
+.usage-container{
+    background-color:#f7f7f7;
+    padding:10px;
+}
+
+.mechanism-container{
+    background-color:#b8e186;
+    padding:10px;
+}
+
+.footer-container{
+    background-color:#4dac26;
+    padding:10px;
+    text-align:center;
+    color:#ffffff;
+}
 
 .outer {
   width: 100%;
@@ -260,8 +317,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
-  padding: 20px 10px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -271,9 +327,10 @@ Full-Width Styles
   top:0;
   right: 10px;
   z-index: 10;
-  padding: 10px 50px 10px 10px;
+  padding: 10px 20px 10px 20px;
   color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  background:#ea5906 no-repeat 95% 50%;
+/*  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;*/
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
@@ -290,15 +347,21 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 40px 10px 10px 10px;
 }
 
 #project_title {
-  margin: 0;
+  margin: 10px 0px 0px 0px;
+  padding: 0px 0px 0px 80px;
   color: #fff;
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 700;
+  line-height: 120%;
   text-shadow: #111 0px 0px 10px;
+  background-image: url(/assets/img/icon_white.png);
+  background-repeat: no-repeat;
+  background-size: 70px;
+  background-position: left center;
 }
 
 #project_tagline {
@@ -349,71 +412,119 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: #f0f2f4;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
 
 #main_content {
-  padding-top: 40px;
+  padding-top: 0px;
+  padding-bottom: 20px;
 }
 
 #footer_wrap {
   background: #212121;
+  padding-top:60px;
+  padding-bottom:50px;
+}
+
+.sub_header p{
+    padding: 0px 0px 0px 7px;
+    margin: 0px 0px 8px 0px;
+    font-weight:600;
+}
+
+.footer-icon{
+    padding: 5px;
+    opacity: 0.8;
+    width: 60px;
+    filter: alpha(opacity=80);
+    -webkit-transition: 0.3s ease-in-out;
+       -moz-transition: 0.3s ease-in-out;
+         -o-transition: 0.3s ease-in-out;
+             transition: 0.3s ease-in-out;
+}
+a:hover .footer-icon{
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.image-on-frame{
+    position: relative;
+    display: block;
+    max-width: 90%;
+    padding: 5px;
+    margin: 10px auto 10px auto;
+    border: 1px solid #ebebeb;
+
+    box-shadow: 0 0 5px #ebebeb;
+    -webkit-box-shadow: 0 0 5px #ebebeb;
+    -moz-box-shadow: 0 0 5px #ebebeb;
+    -o-box-shadow: 0 0 5px #ebebeb;
+    -ms-box-shadow: 0 0 5px #ebebeb;
+}
+
+.image-on-frame-medium{
+    position: relative;
+    display: block;
+    max-width: 70%;
+    padding: 5px;
+    margin: 10px auto 10px auto;
+    border: 1px solid #ebebeb;
+
+    box-shadow: 0 0 5px #ebebeb;
+    -webkit-box-shadow: 0 0 5px #ebebeb;
+    -moz-box-shadow: 0 0 5px #ebebeb;
+    -o-box-shadow: 0 0 5px #ebebeb;
+    -ms-box-shadow: 0 0 5px #ebebeb;
+}
+
+.image-on-frame-small{
+    position: relative;
+    display: block;
+    max-width: 60%;
+    padding: 5px;
+    margin: 10px auto 10px auto;
+    border: 1px solid #ebebeb;
+
+    box-shadow: 0 0 5px #ebebeb;
+    -webkit-box-shadow: 0 0 5px #ebebeb;
+    -moz-box-shadow: 0 0 5px #ebebeb;
+    -o-box-shadow: 0 0 5px #ebebeb;
+    -ms-box-shadow: 0 0 5px #ebebeb;
+}
+
+.image-center{
+    position: relative;
+    display: block;
+    max-width: 90%;
+    padding: 5px;
+    margin: 10px auto 10px auto;
+}
+
+.image-center-small{
+    position: relative;
+    display: block;
+    max-width: 60%;
+    padding: 5px;
+    margin: 10px auto 10px auto;
+}
+
+
+.image-trimmed-by-circle{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background-size: contain;
+}
+
+.image-fade{
+    visibility: hidden;
 }
 
 
 
 /*******************************************************************************
-Small Device Styles
+Twitter Bootstrap
 *******************************************************************************/
 
-@media screen and (max-width: 480px) {
-  body {
-    font-size:14px;
-  }
-
-  #downloads {
-    display: none;
-  }
-
-  .inner {
-    min-width: 320px;
-    max-width: 480px;
-  }
-
-  #project_title {
-  font-size: 32px;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  h3 {
-    font-size: 21px;
-  }
-
-  h4 {
-    font-size: 18px;
-  }
-
-  h5 {
-    font-size: 14px;
-  }
-
-  h6 {
-    font-size: 12px;
-  }
-
-  code, pre {
-    min-width: 320px;
-    max-width: 480px;
-    font-size: 11px;
-  }
-
-}
