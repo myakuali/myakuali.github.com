@@ -281,23 +281,62 @@ Full-Width Styles
     color:#f7f7f7;
 }
 
-.top-hero{
+.top-right{
     margin-left:350px;
 }
 
 .usage-container{
+    background-color:#f7f7f7;
+    padding:10px;
+}
+
+.usage-content{
+    background-image:url(../img/google.png);
+    background-repeat: no-repeat;
+    background-size:200px auto;
+    background-position:left;
+    min-height: 200px;
+    margin:20px 0px 20px 0px;
+}
+
+.usage-right{
+    margin-left:230px;
+}
+
+.mechanism-container{
     background-color:#b8e186;
     padding:10px;
 }
 
-.mechanism-container{
-    background-color:#f7f7f7;
-    padding:10px;
+.mechanism-content{
+/*    background-image:url(../img/google.png);*/
+    background-repeat: no-repeat;
+    background-size:200px auto;
+    background-position:left;
+    min-height: 200px;
+    margin:20px 0px 20px 0px;
+}
+
+.mechanism-right{
+    margin-left:230px;
 }
 
 .qa-container{
     background-color:#b8e186;
     padding:10px;
+}
+
+.qa-content{
+    background-image:url(../img/myakualikun_black.png);
+    background-repeat: no-repeat;
+    background-size:200px auto;
+    background-position:left;
+    min-height: 200px;
+    margin:20px 0px 20px 0px;
+}
+
+.qa-right{
+    margin-left:230px;
 }
 
 .footer-container{
@@ -413,7 +452,6 @@ Full-Width Styles
   background: #f0f2f4;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
-                    ミャクアリとは, LINEトークのやりとりを解析して相性度を測定するアプリです
 }
 
 #main_content {
@@ -452,36 +490,6 @@ a:hover .footer-icon{
     position: relative;
     display: block;
     max-width: 90%;
-    padding: 5px;
-    margin: 10px auto 10px auto;
-    border: 1px solid #ebebeb;
-
-    box-shadow: 0 0 5px #ebebeb;
-    -webkit-box-shadow: 0 0 5px #ebebeb;
-    -moz-box-shadow: 0 0 5px #ebebeb;
-    -o-box-shadow: 0 0 5px #ebebeb;
-    -ms-box-shadow: 0 0 5px #ebebeb;
-}
-
-.image-on-frame-medium{
-    position: relative;
-    display: block;
-    max-width: 70%;
-    padding: 5px;
-    margin: 10px auto 10px auto;
-    border: 1px solid #ebebeb;
-
-    box-shadow: 0 0 5px #ebebeb;
-    -webkit-box-shadow: 0 0 5px #ebebeb;
-    -moz-box-shadow: 0 0 5px #ebebeb;
-    -o-box-shadow: 0 0 5px #ebebeb;
-    -ms-box-shadow: 0 0 5px #ebebeb;
-}
-
-.image-on-frame-small{
-    position: relative;
-    display: block;
-    max-width: 60%;
     padding: 5px;
     margin: 10px auto 10px auto;
     border: 1px solid #ebebeb;
