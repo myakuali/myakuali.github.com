@@ -291,16 +291,16 @@ Full-Width Styles
 }
 
 .usage-content{
-    background-image:url(../img/google.png);
+    background-image:url(../img/background_usage.png);
     background-repeat: no-repeat;
-    background-size:200px auto;
+    background-size:220px auto;
     background-position:left;
     min-height: 200px;
     margin:20px 0px 20px 0px;
 }
 
 .usage-right{
-    margin-left:230px;
+    margin-left:240px;
 }
 
 .mechanism-container{
@@ -309,16 +309,16 @@ Full-Width Styles
 }
 
 .mechanism-content{
-/*    background-image:url(../img/google.png);*/
+    background-image:url(../img/background_mechanism.png);
     background-repeat: no-repeat;
-    background-size:200px auto;
+    background-size:220px auto;
     background-position:left;
     min-height: 200px;
     margin:20px 0px 20px 0px;
 }
 
 .mechanism-right{
-    margin-left:230px;
+    margin-left:240px;
 }
 
 .qa-container{
@@ -329,14 +329,14 @@ Full-Width Styles
 .qa-content{
     background-image:url(../img/myakualikun_black.png);
     background-repeat: no-repeat;
-    background-size:200px auto;
+    background-size:220px auto;
     background-position:left;
     min-height: 200px;
     margin:20px 0px 20px 0px;
 }
 
 .qa-right{
-    margin-left:230px;
+    margin-left:240px;
 }
 
 .footer-container{
