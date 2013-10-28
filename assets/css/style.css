@@ -309,7 +309,7 @@ Full-Width Styles
 }
 
 .mechanism-content{
-/*    background-image:url(../img/google.png);*/
+/* background-image:url(../img/google.png);*/
     background-repeat: no-repeat;
     background-size:200px auto;
     background-position:left;
@@ -367,7 +367,7 @@ Full-Width Styles
   padding: 10px 20px 10px 20px;
   color: #fff;
   background:#ea5906 no-repeat 95% 50%;
-/*  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;*/
+/* background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;*/
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
@@ -534,4 +534,3 @@ a:hover .footer-icon{
 /*******************************************************************************
 Twitter Bootstrap
 *******************************************************************************/
-
